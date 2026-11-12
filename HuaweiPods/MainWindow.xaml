@@ -1,0 +1,505 @@
+<Window
+    x:Class="HuaweiPods.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HuaweiPods"
+    Title="HuaweiPods">
+    <Window.SystemBackdrop>
+        <MicaBackdrop Kind="Base" />
+    </Window.SystemBackdrop>
+    <Grid x:Name="Root" Loaded="Root_Loaded">
+        <Grid.Resources>
+            <ResourceDictionary>
+                <ResourceDictionary.MergedDictionaries>
+                    <ResourceDictionary Source="ms-appx:///Assets/Interface/UpstreamIcons.xaml" />
+                    <ResourceDictionary Source="ms-appx:///Assets/Interface/YuandlSidebarMenu.xaml" />
+                </ResourceDictionary.MergedDictionaries>
+
+                <Style x:Key="Card" TargetType="Border">
+                    <Setter Property="Background" Value="{ThemeResource CardBackgroundFillColorDefaultBrush}" />
+                    <Setter Property="BorderBrush" Value="{ThemeResource CardStrokeColorDefaultBrush}" />
+                    <Setter Property="BorderThickness" Value="1" />
+                    <Setter Property="CornerRadius" Value="12" />
+                    <Setter Property="Padding" Value="16,14" />
+                </Style>
+                <Style x:Key="SecondaryText" TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="{ThemeResource TextFillColorSecondaryBrush}" />
+                    <Setter Property="TextWrapping" Value="Wrap" />
+                </Style>
+                <Style x:Key="BatteryTile" TargetType="Border" BasedOn="{StaticResource Card}">
+                    <Setter Property="Height" Value="88" />
+                    <Setter Property="Padding" Value="8" />
+                </Style>
+                <Style x:Key="BatteryTileLabel" TargetType="TextBlock" BasedOn="{StaticResource SecondaryText}">
+                    <Setter Property="FontSize" Value="12" />
+                </Style>
+                <Style x:Key="BatteryTileValue" TargetType="TextBlock">
+                    <Setter Property="FontSize" Value="17" />
+                    <Setter Property="FontWeight" Value="SemiBold" />
+                </Style>
+                <Style x:Key="BatteryTileCharge" TargetType="TextBlock" BasedOn="{StaticResource BatteryTileLabel}">
+                    <Setter Property="Height" Value="17" />
+                </Style>
+                <Style x:Key="SectionTitle" TargetType="TextBlock" BasedOn="{StaticResource BodyStrongTextBlockStyle}">
+                    <Setter Property="Margin" Value="4,0,0,2" />
+                </Style>
+                <Style x:Key="RowIcon" TargetType="FontIcon">
+                    <Setter Property="Width" Value="20" />
+                    <Setter Property="FontSize" Value="18" />
+                    <Setter Property="Foreground" Value="{ThemeResource TextFillColorSecondaryBrush}" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                </Style>
+                <Style x:Key="Divider" TargetType="Border">
+                    <Setter Property="Height" Value="1" />
+                    <Setter Property="Background" Value="{ThemeResource DividerStrokeColorDefaultBrush}" />
+                </Style>
+                <Style x:Key="CompactSwitch" TargetType="ToggleSwitch">
+                    <Setter Property="MinWidth" Value="0" />
+                    <Setter Property="VerticalAlignment" Value="Center" />
+                    <Setter Property="OnContent" Value="" />
+                    <Setter Property="OffContent" Value="" />
+                </Style>
+                <Style x:Key="NoiseSegmentStyle" TargetType="RadioButton">
+                    <Setter Property="MinHeight" Value="38" />
+                    <Setter Property="MinWidth" Value="0" />
+                    <Setter Property="HorizontalAlignment" Value="Stretch" />
+                    <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    <Setter Property="Padding" Value="4,0" />
+                    <Setter Property="CornerRadius" Value="6" />
+                    <Setter Property="Foreground" Value="{ThemeResource TextFillColorPrimaryBrush}" />
+                    <Setter Property="UseSystemFocusVisuals" Value="True" />
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="RadioButton">
+                                <Border x:Name="SegmentSurface" Background="Transparent"
+                                        CornerRadius="{TemplateBinding CornerRadius}" Padding="{TemplateBinding Padding}">
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroup x:Name="CommonStates">
+                                            <VisualState x:Name="Normal" />
+                                            <VisualState x:Name="PointerOver">
+                                                <VisualState.Setters>
+                                                    <Setter Target="SegmentSurface.Background" Value="{ThemeResource SubtleFillColorSecondaryBrush}" />
+                                                </VisualState.Setters>
+                                            </VisualState>
+                                            <VisualState x:Name="Pressed">
+                                                <VisualState.Setters>
+                                                    <Setter Target="SegmentSurface.Background" Value="{ThemeResource SubtleFillColorTertiaryBrush}" />
+                                                </VisualState.Setters>
+                                            </VisualState>
+                                            <VisualState x:Name="Disabled" />
+                                        </VisualStateGroup>
+                                        <VisualStateGroup x:Name="CheckStates">
+                                            <VisualState x:Name="Unchecked" />
+                                            <VisualState x:Name="Checked">
+                                                <VisualState.Setters>
+                                                    <Setter Target="SegmentText.Foreground" Value="{ThemeResource TextOnAccentFillColorPrimaryBrush}" />
+                                                </VisualState.Setters>
+                                            </VisualState>
+                                        </VisualStateGroup>
+                                    </VisualStateManager.VisualStateGroups>
+                                    <ContentPresenter x:Name="SegmentText" Content="{TemplateBinding Content}"
+                                                      FontWeight="SemiBold" Foreground="{TemplateBinding Foreground}"
+                                                      HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                      VerticalAlignment="Center" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TitleBar x:Name="AppTitleBar" Height="48" Title="HuaweiPods">
+            <TitleBar.IconSource>
+                <ImageIconSource ImageSource="ms-appx:///Assets/HuaweiPods.png" />
+            </TitleBar.IconSource>
+        </TitleBar>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="66" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid Margin="4,8,4,8">
+                <ListView x:Name="Navigation" SelectionMode="Single" VerticalAlignment="Top"
+                          Padding="0" ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                          SelectionChanged="Navigation_SelectionChanged" AutomationProperties.Name="导航">
+                    <local:SidebarMenuItem x:Name="HomeNav" Tag="home" Content="首页"
+                                           Style="{StaticResource YuandlSidebarMenuItemStyle}" AutomationProperties.Name="首页">
+                        <local:SidebarMenuItem.Icon>
+                            <ContentControl Width="20" Height="20" IsTabStop="False" Template="{StaticResource UpstreamHomeIconTemplate}" />
+                        </local:SidebarMenuItem.Icon>
+                    </local:SidebarMenuItem>
+                    <local:SidebarMenuItem Tag="devices" Content="设备"
+                                           Style="{StaticResource YuandlSidebarMenuItemStyle}" AutomationProperties.Name="设备">
+                        <local:SidebarMenuItem.Icon>
+                            <ContentControl Width="20" Height="20" IsTabStop="False" Template="{StaticResource UpstreamHeadphonesIconTemplate}" />
+                        </local:SidebarMenuItem.Icon>
+                    </local:SidebarMenuItem>
+                </ListView>
+                <ListView x:Name="FooterNavigation" SelectionMode="Single" VerticalAlignment="Bottom"
+                          Padding="0" ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                          SelectionChanged="Navigation_SelectionChanged" AutomationProperties.Name="应用导航">
+                    <local:SidebarMenuItem Tag="settings" Content="设置"
+                                           Style="{StaticResource YuandlSidebarMenuItemStyle}" AutomationProperties.Name="设置">
+                        <local:SidebarMenuItem.Icon>
+                            <ContentControl Width="20" Height="20" IsTabStop="False" Template="{StaticResource UpstreamSettingsIconTemplate}" />
+                        </local:SidebarMenuItem.Icon>
+                    </local:SidebarMenuItem>
+                    <local:SidebarMenuItem Tag="about" Content="关于"
+                                           Style="{StaticResource YuandlSidebarMenuItemStyle}" AutomationProperties.Name="关于">
+                        <local:SidebarMenuItem.Icon>
+                            <ContentControl Width="20" Height="20" IsTabStop="False" Template="{StaticResource UpstreamInfoIconTemplate}" />
+                        </local:SidebarMenuItem.Icon>
+                    </local:SidebarMenuItem>
+                </ListView>
+            </Grid>
+            <Border Grid.Column="1" Background="{ThemeResource LayerFillColorDefaultBrush}"
+                    BorderBrush="{ThemeResource CardStrokeColorDefaultBrush}"
+                    BorderThickness="1,1,0,0" CornerRadius="10,0,0,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <InfoBar x:Name="Notice" Margin="18,12,18,0" IsClosable="True" Visibility="Collapsed" />
+                    <ScrollViewer x:Name="PageScroll" Grid.Row="1"
+                                  VerticalScrollBarVisibility="Auto" HorizontalScrollMode="Disabled">
+                        <Grid Margin="18,16,18,20" MaxWidth="880">
+                            <StackPanel x:Name="HomePane" Spacing="16">
+                                <StackPanel Spacing="8">
+                                    <TextBlock Text="耳机概览" Style="{StaticResource SectionTitle}" />
+                                    <Border Style="{StaticResource Card}">
+                                        <Grid ColumnSpacing="12" MinHeight="92">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="104" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Image x:Name="DeviceArtwork" Width="104" Height="92" Stretch="Uniform"
+                                                   Visibility="Collapsed" AutomationProperties.Name="耳机官方图片" />
+                                            <StackPanel x:Name="ArtworkPlaceholder" Spacing="5" VerticalAlignment="Center">
+                                                <ContentControl Width="32" Height="32"
+                                                                Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                                Template="{StaticResource UpstreamHeadphonesIconTemplate}" />
+                                                <TextBlock x:Name="ArtworkStatus" Text="连接耳机后显示官方图片"
+                                                           Style="{StaticResource SecondaryText}" FontSize="11"
+                                                           TextAlignment="Center" />
+                                            </StackPanel>
+                                            <StackPanel Grid.Column="1" Spacing="4" VerticalAlignment="Center">
+                                                <TextBlock x:Name="HomeDeviceTitle" Text="华为耳机"
+                                                           Style="{ThemeResource SubtitleTextBlockStyle}" TextWrapping="Wrap"
+                                                           TextTrimming="CharacterEllipsis" MaxLines="2" />
+                                                <TextBlock x:Name="HomeDeviceConnection" Text="连接耳机后查看电量和控制选项"
+                                                           Style="{StaticResource SecondaryText}" />
+                                            </StackPanel>
+                                        </Grid>
+                                    </Border>
+                                    <Grid x:Name="BatteryTiles" ColumnSpacing="8" MaxWidth="560">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition x:Name="CaseBatteryColumn" Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Border Style="{StaticResource BatteryTile}">
+                                            <StackPanel Spacing="2" VerticalAlignment="Center">
+                                                <TextBlock x:Name="LeftBatteryLabel" Text="左耳" Style="{StaticResource BatteryTileLabel}" />
+                                                <StackPanel Orientation="Horizontal" Spacing="4">
+                                                    <Image x:Name="LeftBatteryIcon" Width="18" Height="15" Visibility="Collapsed" />
+                                                    <TextBlock x:Name="LeftBatteryText" Text="—" Style="{StaticResource BatteryTileValue}" />
+                                                </StackPanel>
+                                                <ProgressBar x:Name="LeftBatteryBar" Foreground="{ThemeResource StatusAccent}"
+                                                             AutomationProperties.Name="左耳电量" />
+                                                <TextBlock x:Name="LeftChargeText" Style="{StaticResource BatteryTileCharge}" />
+                                            </StackPanel>
+                                        </Border>
+                                        <Border Grid.Column="1" Style="{StaticResource BatteryTile}">
+                                            <StackPanel Spacing="2" VerticalAlignment="Center">
+                                                <TextBlock x:Name="RightBatteryLabel" Text="右耳" Style="{StaticResource BatteryTileLabel}" />
+                                                <StackPanel Orientation="Horizontal" Spacing="4">
+                                                    <Image x:Name="RightBatteryIcon" Width="18" Height="15" Visibility="Collapsed" />
+                                                    <TextBlock x:Name="RightBatteryText" Text="—" Style="{StaticResource BatteryTileValue}" />
+                                                </StackPanel>
+                                                <ProgressBar x:Name="RightBatteryBar" Foreground="{ThemeResource StatusAccent}"
+                                                             AutomationProperties.Name="右耳电量" />
+                                                <TextBlock x:Name="RightChargeText" Style="{StaticResource BatteryTileCharge}" />
+                                            </StackPanel>
+                                        </Border>
+                                        <Border x:Name="CaseBatteryCard" Grid.Column="2" Style="{StaticResource BatteryTile}">
+                                            <StackPanel Spacing="2" VerticalAlignment="Center">
+                                                <TextBlock Text="充电盒" Style="{StaticResource BatteryTileLabel}" />
+                                                <StackPanel Orientation="Horizontal" Spacing="4">
+                                                    <Image x:Name="CaseBatteryIcon" Width="18" Height="15" Visibility="Collapsed" />
+                                                    <TextBlock x:Name="CaseBatteryText" Text="—" Style="{StaticResource BatteryTileValue}" />
+                                                </StackPanel>
+                                                <ProgressBar x:Name="CaseBatteryBar" Foreground="{ThemeResource StatusAccent}"
+                                                             AutomationProperties.Name="充电盒电量" />
+                                                <TextBlock x:Name="CaseChargeText" Style="{StaticResource BatteryTileCharge}" />
+                                            </StackPanel>
+                                        </Border>
+                                    </Grid>
+                                </StackPanel>
+
+                                <StackPanel x:Name="NoiseControlsGroup" Spacing="4">
+                                    <TextBlock Text="噪声控制" Style="{StaticResource SectionTitle}" />
+                                    <Border Style="{StaticResource Card}">
+                                        <StackPanel Spacing="10">
+                                            <Grid ColumnSpacing="10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <FontIcon Glyph="&#xE9E9;" Style="{StaticResource RowIcon}" />
+                                                <StackPanel Grid.Column="1" Spacing="4">
+                                                    <TextBlock Text="主动降噪" FontWeight="SemiBold" />
+                                                    <TextBlock x:Name="HomeNoiseStatus" Text="—" Style="{StaticResource SecondaryText}" />
+                                                </StackPanel>
+                                            </Grid>
+                                            <StackPanel x:Name="NoiseSection" Spacing="10" Visibility="Collapsed">
+                                                <Border x:Name="NoiseModeSwitch" CornerRadius="9" Padding="3"
+                                                    Background="{ThemeResource ControlFillColorSecondaryBrush}"
+                                                    BorderBrush="{ThemeResource ControlStrokeColorDefaultBrush}" BorderThickness="1">
+                                                    <Grid AutomationProperties.Name="降噪模式">
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="*" />
+                                                            <ColumnDefinition x:Name="NoiseTransparencyColumn" Width="*" />
+                                                            <ColumnDefinition Width="*" />
+                                                        </Grid.ColumnDefinitions>
+                                                        <Border x:Name="NoiseModeThumb" CornerRadius="6" Visibility="Collapsed"
+                                                            Background="{ThemeResource AccentFillColorDefaultBrush}" IsHitTestVisible="False">
+                                                            <Border.Transitions>
+                                                                <RepositionThemeTransition />
+                                                            </Border.Transitions>
+                                                        </Border>
+                                                        <RadioButton x:Name="NoiseOffSegment" Grid.Column="0" GroupName="HeadsetNoiseMode"
+                                                                 Content="关闭降噪" Tag="Off" Click="NoiseMode_Click"
+                                                                 Style="{StaticResource NoiseSegmentStyle}" AutomationProperties.Name="关闭降噪" />
+                                                        <RadioButton x:Name="NoiseTransparencySegment" Grid.Column="1" GroupName="HeadsetNoiseMode"
+                                                                 Content="透传" Tag="Transparency" Click="NoiseMode_Click"
+                                                                 Style="{StaticResource NoiseSegmentStyle}" AutomationProperties.Name="透传" />
+                                                        <RadioButton x:Name="NoiseCancellationSegment" Grid.Column="2" GroupName="HeadsetNoiseMode"
+                                                                 Content="降噪" Tag="NoiseCancellation" Click="NoiseMode_Click"
+                                                                 Style="{StaticResource NoiseSegmentStyle}" AutomationProperties.Name="开启降噪" />
+                                                    </Grid>
+                                                </Border>
+                                                <ComboBox x:Name="NoiseLevels" Header="级别" DisplayMemberPath="Label"
+                                                      SelectionChanged="NoiseLevels_SelectionChanged" Width="200" Visibility="Collapsed" />
+                                                <Slider x:Name="NoiseDirection" Header="降噪方向" Minimum="1" Maximum="9" Value="5"
+                                                    StepFrequency="1" TickFrequency="1" TickPlacement="BottomRight"
+                                                    ValueChanged="NoiseDirection_ValueChanged" Visibility="Collapsed" />
+                                                <Button x:Name="ApplyNoiseButton" Content="应用降噪设置" Click="ApplyNoise_Click"
+                                                    Style="{StaticResource AccentButtonStyle}" Visibility="Collapsed" />
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+
+                                <StackPanel x:Name="OptionsSection" Spacing="4" Visibility="Collapsed">
+                                    <TextBlock Text="耳机设置" Style="{StaticResource SectionTitle}" />
+                                    <Border x:Name="SoundSettings" Style="{StaticResource Card}" Visibility="Collapsed">
+                                        <Grid ColumnSpacing="10">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="Auto" />
+                                            </Grid.ColumnDefinitions>
+                                            <FontIcon Glyph="&#xE767;" Style="{StaticResource RowIcon}" />
+                                            <StackPanel Grid.Column="1" Spacing="2" VerticalAlignment="Center">
+                                                <TextBlock Text="音效预设" FontWeight="SemiBold" />
+                                                <TextBlock x:Name="SoundStatus" Style="{StaticResource SecondaryText}" />
+                                            </StackPanel>
+                                            <ComboBox x:Name="SoundPresets" Grid.Column="2" DisplayMemberPath="Label" Width="118"
+                                                      VerticalAlignment="Center" AutomationProperties.Name="音效预设"
+                                                      SelectionChanged="SoundPresets_SelectionChanged" />
+                                        </Grid>
+                                    </Border>
+                                    <Border x:Name="WearSettings" Style="{StaticResource Card}" Visibility="Collapsed">
+                                        <Grid ColumnSpacing="10">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="*" />
+                                                <ColumnDefinition Width="Auto" />
+                                            </Grid.ColumnDefinitions>
+                                            <FontIcon Glyph="&#xE7F6;" Style="{StaticResource RowIcon}" />
+                                            <StackPanel Grid.Column="1" Spacing="2" VerticalAlignment="Center">
+                                                <TextBlock Text="佩戴检测" FontWeight="SemiBold" />
+                                                <TextBlock x:Name="WearStatus" Style="{StaticResource SecondaryText}" />
+                                            </StackPanel>
+                                            <ToggleSwitch x:Name="WearSwitch" Grid.Column="2" Style="{StaticResource CompactSwitch}"
+                                                          Toggled="WearSwitch_Toggled" AutomationProperties.Name="佩戴检测" />
+                                        </Grid>
+                                    </Border>
+                                    <Border x:Name="LatencySettings" Style="{StaticResource Card}" Visibility="Collapsed">
+                                        <StackPanel Spacing="8">
+                                            <Grid ColumnSpacing="10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <FontIcon Glyph="&#xE823;" Style="{StaticResource RowIcon}" />
+                                                <StackPanel Grid.Column="1" Spacing="2" VerticalAlignment="Center">
+                                                    <TextBlock Text="低时延" FontWeight="SemiBold" />
+                                                    <TextBlock x:Name="LatencyStatus" Style="{StaticResource SecondaryText}" />
+                                                </StackPanel>
+                                                <ToggleSwitch x:Name="LatencySwitch" Grid.Column="2" Style="{StaticResource CompactSwitch}"
+                                                              Toggled="LatencySwitch_Toggled" AutomationProperties.Name="低时延" />
+                                            </Grid>
+                                            <Border Style="{StaticResource Divider}" />
+                                            <Grid ColumnSpacing="10" Margin="30,0,0,0">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="重连时恢复上次发送的低时延设置" VerticalAlignment="Center" TextWrapping="Wrap" />
+                                                <ToggleSwitch x:Name="RestoreLatency" Grid.Column="1" Style="{StaticResource CompactSwitch}"
+                                                              Toggled="RestoreLatency_Toggled" AutomationProperties.Name="重连时恢复低时延" />
+                                            </Grid>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+                                <StackPanel x:Name="AdvancedSettingsPanel" Spacing="12" Visibility="Collapsed" />
+                            </StackPanel>
+
+                            <StackPanel x:Name="DevicesPane" Spacing="16" Visibility="Collapsed">
+                                <StackPanel Spacing="4">
+                                    <TextBlock Text="已配对设备" Style="{StaticResource SectionTitle}" />
+                                    <Border Style="{StaticResource Card}">
+                                        <StackPanel Spacing="8">
+                                            <Grid ColumnSpacing="10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock x:Name="DeviceListHint" Text="正在查找 Windows 已配对设备…"
+                                                           Style="{StaticResource SecondaryText}" VerticalAlignment="Center" />
+                                                <StackPanel Grid.Column="1" Orientation="Horizontal" Spacing="6">
+                                                    <Button Content="蓝牙设置" Click="OpenBluetoothSettings_Click" />
+                                                    <Button x:Name="ReloadDevicesButton" Click="ReloadDevices_Click"
+                                                            ToolTipService.ToolTip="刷新设备" AutomationProperties.Name="刷新设备">
+                                                        <SymbolIcon Symbol="Refresh" />
+                                                    </Button>
+                                                </StackPanel>
+                                            </Grid>
+                                            <Grid ColumnSpacing="10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*" />
+                                                    <ColumnDefinition Width="Auto" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="显示其他蓝牙设备" VerticalAlignment="Center" />
+                                                <ToggleSwitch x:Name="ShowOtherDevices" Grid.Column="1" Style="{StaticResource CompactSwitch}"
+                                                              Toggled="ShowOtherDevices_Toggled" AutomationProperties.Name="显示其他蓝牙设备" />
+                                            </Grid>
+                                            <ListView x:Name="DeviceList" SelectionMode="Single" MaxHeight="250"
+                                                      SelectionChanged="DeviceList_SelectionChanged"
+                                                      AutomationProperties.Name="已配对蓝牙设备">
+                                                <ListView.ItemTemplate>
+                                                    <DataTemplate x:DataType="local:DeviceListItem">
+                                                        <StackPanel Spacing="3" Padding="2,7">
+                                                            <TextBlock Text="{x:Bind Name}" TextTrimming="CharacterEllipsis" FontWeight="SemiBold" />
+                                                            <TextBlock Text="{x:Bind Description}" FontSize="12" Style="{StaticResource SecondaryText}" />
+                                                        </StackPanel>
+                                                    </DataTemplate>
+                                                </ListView.ItemTemplate>
+                                            </ListView>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+                                <StackPanel Spacing="4">
+                                    <TextBlock Text="连接与型号" Style="{StaticResource SectionTitle}" />
+                                    <Border Style="{StaticResource Card}">
+                                        <StackPanel Spacing="10">
+                                            <Grid ColumnSpacing="10">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <ContentControl Width="24" Height="24" VerticalAlignment="Center"
+                                                                Foreground="{ThemeResource TextFillColorSecondaryBrush}"
+                                                                Template="{StaticResource UpstreamHeadphonesIconTemplate}" />
+                                                <StackPanel Grid.Column="1" Spacing="2">
+                                                    <TextBlock x:Name="DeviceNameText" Text="选择你的耳机" TextWrapping="Wrap"
+                                                               Style="{ThemeResource SubtitleTextBlockStyle}" />
+                                                    <TextBlock x:Name="ConnectionText" Text="在 Windows 蓝牙设置中配对，然后选择设备。"
+                                                               Style="{StaticResource SecondaryText}" />
+                                                </StackPanel>
+                                            </Grid>
+                                            <TextBlock x:Name="BatteryHint" Style="{StaticResource SecondaryText}" Visibility="Collapsed" />
+                                            <Border Style="{StaticResource Divider}" Visibility="{Binding Visibility, ElementName=ModelPicker}" />
+                                            <Grid ColumnSpacing="8" Visibility="{Binding Visibility, ElementName=ModelPicker}">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="耳机型号" VerticalAlignment="Center" />
+                                                <ComboBox x:Name="ModelPicker" Grid.Column="1" DisplayMemberPath="Name"
+                                                          HorizontalAlignment="Stretch" Visibility="Collapsed"
+                                                          AutomationProperties.Name="耳机型号" SelectionChanged="ModelPicker_SelectionChanged" />
+                                            </Grid>
+                                            <Grid ColumnSpacing="8" Visibility="{Binding Visibility, ElementName=ColorPicker}">
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="Auto" />
+                                                    <ColumnDefinition Width="*" />
+                                                </Grid.ColumnDefinitions>
+                                                <TextBlock Text="官方图片配色" VerticalAlignment="Center" />
+                                                <ComboBox x:Name="ColorPicker" Grid.Column="1" DisplayMemberPath="Name"
+                                                          HorizontalAlignment="Stretch" Visibility="Collapsed"
+                                                          AutomationProperties.Name="官方图片配色" SelectionChanged="ColorPicker_SelectionChanged" />
+                                            </Grid>
+                                            <StackPanel x:Name="ConnectionActions" Orientation="Horizontal" Spacing="8"
+                                                        HorizontalAlignment="Right" Visibility="Collapsed">
+                                                <ProgressRing x:Name="ConnectionProgress" Width="22" Height="22"
+                                                              IsActive="False" Visibility="Collapsed" AutomationProperties.Name="正在连接" />
+                                                <Button x:Name="RefreshStatusButton" Content="刷新状态" Click="RefreshStatus_Click" Visibility="Collapsed" />
+                                                <Button x:Name="ConnectButton" Content="连接" Click="Connect_Click"
+                                                        Style="{StaticResource AccentButtonStyle}" />
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Border>
+                                </StackPanel>
+                            </StackPanel>
+
+                            <StackPanel x:Name="SettingsPane" Spacing="4" Visibility="Collapsed">
+                                <TextBlock Text="应用设置" Style="{StaticResource SectionTitle}" />
+                                <Border Style="{StaticResource Card}">
+                                    <Grid ColumnSpacing="10">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <FontIcon Glyph="&#xE945;" Style="{StaticResource RowIcon}" />
+                                        <StackPanel Grid.Column="1" Spacing="2" VerticalAlignment="Center">
+                                            <TextBlock Text="开机自启" FontWeight="SemiBold" />
+                                            <TextBlock x:Name="StartupStatus" Text="登录 Windows 后自动启动 HuaweiPods。"
+                                                       Style="{StaticResource SecondaryText}" />
+                                        </StackPanel>
+                                        <ToggleSwitch x:Name="StartupSwitch" Grid.Column="2" Style="{StaticResource CompactSwitch}"
+                                                      Toggled="StartupSwitch_Toggled" AutomationProperties.Name="开机自启"
+                                                      IsEnabled="False" />
+                                    </Grid>
+                                </Border>
+                            </StackPanel>
+
+                            <StackPanel x:Name="AboutPane" Spacing="4" Visibility="Collapsed">
+                                <TextBlock Text="关于" Style="{StaticResource SectionTitle}" />
+                                <Border Style="{StaticResource Card}">
+                                    <StackPanel Spacing="8">
+                                        <TextBlock Text="HuaweiPods for Windows" Style="{ThemeResource SubtitleTextBlockStyle}" />
+                                        <TextBlock Text="基于 HuaweiPods 的 WinUI 3 桌面移植版。" Style="{StaticResource SecondaryText}" />
+                                        <TextBlock Text="设备图片来自华为官方资源。" Style="{StaticResource SecondaryText}" />
+                                        <HyperlinkButton Content="HuaweiPods 开源项目" Padding="0,4"
+                                                         NavigateUri="https://github.com/Nshpiter/HuaweiPods" />
+                                    </StackPanel>
+                                </Border>
+                            </StackPanel>
+                        </Grid>
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

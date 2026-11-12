@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <Platforms>x64;ARM64</Platforms>
+    <Platform Condition="'$(Platform)' == '' Or '$(Platform)' == 'AnyCPU'">x64</Platform>
+    <PlatformTarget>$(Platform)</PlatformTarget>
+    <RuntimeIdentifier Condition="'$(RuntimeIdentifier)' == '' And '$(Platform)' == 'ARM64'">win-arm64</RuntimeIdentifier>
+    <RuntimeIdentifier Condition="'$(RuntimeIdentifier)' == ''">win-x64</RuntimeIdentifier>
+    <UseRidGraph>true</UseRidGraph>
+    <UseWinUI>true</UseWinUI>
+    <WindowsPackageType>None</WindowsPackageType>
+    <WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+    <EnableMsixTooling>true</EnableMsixTooling>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\HuaweiPods.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260921001" />
+    <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.8249" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\HuaweiPods.ico" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\HuaweiPods.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\Interface\**\*.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\Interface\LICENSE-Miuix.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\Interface\LICENSE-Yuandl.ThemeUI.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\Interface\LICENSE-OpenEGo-Hub.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets\Official\**\*.json;Assets\Official\**\*.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

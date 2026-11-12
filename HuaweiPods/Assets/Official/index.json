@@ -1,0 +1,2207 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "modelId": "000027",
+      "subModelId": "00",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 3",
+      "isCatalogDefault": false,
+      "configSha256": "863faa501cde83102d8d007dcf75bd4f7914888d993c77a3d58e96a71152fee4",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000027/000027_00.zip",
+      "archiveSha256": "dd7a0114b989c45c3577e561a812d8fd89b66a9a9dce13eb5ff432a7ac1eb015",
+      "images": {
+        "hero": {
+          "file": "000027_00_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "9a06f618273d29697fd5f7ff84d2662c642768f73c9b26bb4a0fa48b19da4b9a",
+          "sourceEntry": "000027_00/iv_device_logo.png"
+        }
+      }
+    },
+    {
+      "modelId": "000027",
+      "subModelId": "01",
+      "description": "黑色产品资源",
+      "marketingName": "HUAWEI FreeBuds 3",
+      "isCatalogDefault": true,
+      "configSha256": "863faa501cde83102d8d007dcf75bd4f7914888d993c77a3d58e96a71152fee4",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000027/000027_01.zip",
+      "archiveSha256": "7b0cc865e4d616f6107886f5b718bbc89e7999076a35c14965ea228c20ee7d8e",
+      "images": {
+        "hero": {
+          "file": "000027_01_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "9a06f618273d29697fd5f7ff84d2662c642768f73c9b26bb4a0fa48b19da4b9a",
+          "sourceEntry": "000027_01/iv_device_logo.png"
+        }
+      }
+    },
+    {
+      "modelId": "000027",
+      "subModelId": "02",
+      "description": "红色产品资源",
+      "marketingName": "HUAWEI FreeBuds 3",
+      "isCatalogDefault": false,
+      "configSha256": "863faa501cde83102d8d007dcf75bd4f7914888d993c77a3d58e96a71152fee4",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000027/000027_02.zip",
+      "archiveSha256": "c49ede9a20c550acd755cd21e3487f565905f5fd09fabce349f3a2e24824984e",
+      "images": {
+        "hero": {
+          "file": "000027_02_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "9a06f618273d29697fd5f7ff84d2662c642768f73c9b26bb4a0fa48b19da4b9a",
+          "sourceEntry": "000027_02/iv_device_logo.png"
+        }
+      }
+    },
+    {
+      "modelId": "000129",
+      "subModelId": "00",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 4",
+      "isCatalogDefault": true,
+      "configSha256": "2d51ecff4459d0bfe0f46cac033d3b1359a18c68c9751242d673844cd6979be0",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000129/000129_00.zip",
+      "archiveSha256": "220b2b73e1e34b69b7ab42dd88a4a0c64da40457373f5aedaac9b93370d76ae1",
+      "images": {
+        "hero": {
+          "file": "000129_00_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "8e6dff9c358f1b7da2765a613529b119357764b93776f7d1f2098c9094b04fd5",
+          "sourceEntry": "000129_00/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000129_00_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "5ee9f1541df21ae44de44729fad3ebe04fe011d5bc49a68a4fe514b328e307d6",
+          "sourceEntry": "000129_00/find_left_icon.png"
+        },
+        "right": {
+          "file": "000129_00_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "c8d9d77502ee536217eaaeedbf969fac62b34f8de148f67e5f10069434fd759d",
+          "sourceEntry": "000129_00/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000129",
+      "subModelId": "01",
+      "description": "银色产品资源",
+      "marketingName": "HUAWEI FreeBuds 4",
+      "isCatalogDefault": false,
+      "configSha256": "2d51ecff4459d0bfe0f46cac033d3b1359a18c68c9751242d673844cd6979be0",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000129/000129_01.zip",
+      "archiveSha256": "7425b440137911dc79d87021fe31f31646e895f30af6271c8c3327863d870882",
+      "images": {
+        "hero": {
+          "file": "000129_01_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "bf05a9418a56c202d684d562d88e860162f8ebd0b78e7a25931ec1e80d27a0d0",
+          "sourceEntry": "000129_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000129_01_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1aee4b01695a564c0941e8a0ad43cbe9650b06fbf73a8024eb19e70cc310fb5c",
+          "sourceEntry": "000129_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000129_01_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "af538c6d755bf3486d242b95f46e90d5707189e72f75ee4f937271f684e972e3",
+          "sourceEntry": "000129_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000129",
+      "subModelId": "02",
+      "description": "红色产品资源",
+      "marketingName": "HUAWEI FreeBuds 4",
+      "isCatalogDefault": false,
+      "configSha256": "2d51ecff4459d0bfe0f46cac033d3b1359a18c68c9751242d673844cd6979be0",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000129/000129_02.zip",
+      "archiveSha256": "490170a9064615e06fadfe925e46e86861928f0de8848dee355ce609a49b3518",
+      "images": {
+        "hero": {
+          "file": "000129_02_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "40a31ec5f1fb2b1ac4751eb41ca892c02e94e7632acd2a9abfb4b30fa949af26",
+          "sourceEntry": "000129_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000129_02_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "81bb225695f999741b0ed2f7675257eec4e0552fcb46a58bb7312e62a00fc416",
+          "sourceEntry": "000129_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "000129_02_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "ceb2f26f24a2184b99e1f17e284f0781154b48540fd8476d36bdb949f1da7db7",
+          "sourceEntry": "000129_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000135",
+      "subModelId": "00",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 4E",
+      "isCatalogDefault": true,
+      "configSha256": "60154499a74790087bc77b9b165052e086841a334e2922700a9ad9d26d067cf8",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000135/000135_00.zip",
+      "archiveSha256": "bc1cf421691a8b2dcdad2f9c1c9ed30621cf4605052a24c8717fb613a63b9a7f",
+      "images": {
+        "hero": {
+          "file": "000135_00_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "8e6dff9c358f1b7da2765a613529b119357764b93776f7d1f2098c9094b04fd5",
+          "sourceEntry": "000135_00/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000135_00_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "5ee9f1541df21ae44de44729fad3ebe04fe011d5bc49a68a4fe514b328e307d6",
+          "sourceEntry": "000135_00/find_left_icon.png"
+        },
+        "right": {
+          "file": "000135_00_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "c8d9d77502ee536217eaaeedbf969fac62b34f8de148f67e5f10069434fd759d",
+          "sourceEntry": "000135_00/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000135",
+      "subModelId": "01",
+      "description": "银色产品资源",
+      "marketingName": "HUAWEI FreeBuds 4E",
+      "isCatalogDefault": false,
+      "configSha256": "60154499a74790087bc77b9b165052e086841a334e2922700a9ad9d26d067cf8",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000135/000135_01.zip",
+      "archiveSha256": "73180c74005afdbb6933c472405e5e78a3d2bc5e4f39b0739d0303935d5d8d4f",
+      "images": {
+        "hero": {
+          "file": "000135_01_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "bf05a9418a56c202d684d562d88e860162f8ebd0b78e7a25931ec1e80d27a0d0",
+          "sourceEntry": "000135_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000135_01_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1aee4b01695a564c0941e8a0ad43cbe9650b06fbf73a8024eb19e70cc310fb5c",
+          "sourceEntry": "000135_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000135_01_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "af538c6d755bf3486d242b95f46e90d5707189e72f75ee4f937271f684e972e3",
+          "sourceEntry": "000135_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000135",
+      "subModelId": "02",
+      "description": "红色产品资源",
+      "marketingName": "HUAWEI FreeBuds 4E",
+      "isCatalogDefault": false,
+      "configSha256": "60154499a74790087bc77b9b165052e086841a334e2922700a9ad9d26d067cf8",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000135/000135_02.zip",
+      "archiveSha256": "ccf2fdfd26a3be29ecc4deae6ea7dd4292ae4467ef69cff989cbbe5ecc847361",
+      "images": {
+        "hero": {
+          "file": "000135_02_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "40a31ec5f1fb2b1ac4751eb41ca892c02e94e7632acd2a9abfb4b30fa949af26",
+          "sourceEntry": "000135_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000135_02_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "81bb225695f999741b0ed2f7675257eec4e0552fcb46a58bb7312e62a00fc416",
+          "sourceEntry": "000135_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "000135_02_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "ceb2f26f24a2184b99e1f17e284f0781154b48540fd8476d36bdb949f1da7db7",
+          "sourceEntry": "000135_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000139",
+      "subModelId": "00",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI Eyewear",
+      "isCatalogDefault": true,
+      "configSha256": "906ce848431d14664aee8dc4d7d6a602ba6be7c65ffc240acab97382d9e6e560",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000139/000139_00.zip",
+      "archiveSha256": "58bf286db80235645c50096129b07fda557502c015c4120b44dfa2b26926d452",
+      "images": {
+        "hero": {
+          "file": "000139_00_hero.png",
+          "width": 504,
+          "height": 504,
+          "sha256": "e2efb4c19d8d7735d06dbb143ecc8178aea00058d22a9f792634103dbb420421",
+          "sourceEntry": "000139_00/iv_device_logo.png"
+        }
+      }
+    },
+    {
+      "modelId": "000141",
+      "subModelId": "00",
+      "description": "银色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5",
+      "isCatalogDefault": false,
+      "configSha256": "ccf2b29389fe5e4e42fbd59de761c45a28df7892a2543edc717f68effc050771",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000141/000141_00.zip",
+      "archiveSha256": "491f0c584ca3f52378d2e7947c211408195f8c7fe17c94c35f74e6e2717c50d7",
+      "images": {
+        "hero": {
+          "file": "000141_00_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "df508e2d4601cf8e9c14200d72716a2e6e1cc01d5b38dabb37cde5e7db54b8ca",
+          "sourceEntry": "000141_00/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000141_00_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "de9db6bd6f562bde182e9bd64e8b3205f6343a0ca348c937dedc1f6ae5bdde67",
+          "sourceEntry": "000141_00/find_left_icon.png"
+        },
+        "right": {
+          "file": "000141_00_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "624c51b742d09e255ed8bd46e66cdf8ef89e248f4d0e4c974f3d6fb84149d3db",
+          "sourceEntry": "000141_00/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000141",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5",
+      "isCatalogDefault": true,
+      "configSha256": "ccf2b29389fe5e4e42fbd59de761c45a28df7892a2543edc717f68effc050771",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000141/000141_01.zip",
+      "archiveSha256": "c59eb092d50ed9b3cc25734f4fd07d9abfdafe984e195f81ad4ebabd3ae87921",
+      "images": {
+        "hero": {
+          "file": "000141_01_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "29fb9124c2b74d7a318ae1e762da92749e61bf099993d91f5a2b6a1055429674",
+          "sourceEntry": "000141_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000141_01_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "cfeae857f35b09e987b7c708c9a38f85f8a574ba7f5166b2ba6bf424b5dc3d41",
+          "sourceEntry": "000141_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000141_01_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "561b5f2785b296d8f79de25135c7163aada6e41a5611e97c786b7c3dadba73f9",
+          "sourceEntry": "000141_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000141",
+      "subModelId": "02",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5",
+      "isCatalogDefault": false,
+      "configSha256": "ccf2b29389fe5e4e42fbd59de761c45a28df7892a2543edc717f68effc050771",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000141/000141_02.zip",
+      "archiveSha256": "c490f758b52f18f0a2a7b80aa8e2c2b1cd5c3d1faf3a7a68018bde703ddeef66",
+      "images": {
+        "hero": {
+          "file": "000141_02_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "29fb9124c2b74d7a318ae1e762da92749e61bf099993d91f5a2b6a1055429674",
+          "sourceEntry": "000141_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000141_02_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "cfeae857f35b09e987b7c708c9a38f85f8a574ba7f5166b2ba6bf424b5dc3d41",
+          "sourceEntry": "000141_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "000141_02_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "561b5f2785b296d8f79de25135c7163aada6e41a5611e97c786b7c3dadba73f9",
+          "sourceEntry": "000141_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000141",
+      "subModelId": "06",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5",
+      "isCatalogDefault": false,
+      "configSha256": "ccf2b29389fe5e4e42fbd59de761c45a28df7892a2543edc717f68effc050771",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000141/000141_06.zip",
+      "archiveSha256": "2605847a499888ae671667ea0bf5b4fc10a3967809c32bcb83b0cff0b224aec7",
+      "images": {
+        "hero": {
+          "file": "000141_06_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "29fb9124c2b74d7a318ae1e762da92749e61bf099993d91f5a2b6a1055429674",
+          "sourceEntry": "000141_06/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000141_06_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "cfeae857f35b09e987b7c708c9a38f85f8a574ba7f5166b2ba6bf424b5dc3d41",
+          "sourceEntry": "000141_06/find_left_icon.png"
+        },
+        "right": {
+          "file": "000141_06_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "561b5f2785b296d8f79de25135c7163aada6e41a5611e97c786b7c3dadba73f9",
+          "sourceEntry": "000141_06/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000141",
+      "subModelId": "09",
+      "description": "橙色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5",
+      "isCatalogDefault": false,
+      "configSha256": "ccf2b29389fe5e4e42fbd59de761c45a28df7892a2543edc717f68effc050771",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000141/000141_09.zip",
+      "archiveSha256": "060152692c93b0ae476b86d0f03cb5c195598df4da68840f50e3be6125c5008f",
+      "images": {
+        "hero": {
+          "file": "000141_09_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "8efc71d98d2e7cdf62f1302beb6ffccf580d6a8b7588b366f64b271f16fa3f97",
+          "sourceEntry": "000141_09/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000141_09_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "57512a51fce8d9320708de5d4fbe267c00d59c8e53133679b2f79d863d5a0b91",
+          "sourceEntry": "000141_09/find_left_icon.png"
+        },
+        "right": {
+          "file": "000141_09_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "50ec52f171017a28138018bcc3012fa4058243b10656ba63032d3841d7b19fde",
+          "sourceEntry": "000141_09/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000141",
+      "subModelId": "10",
+      "description": "蓝色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5",
+      "isCatalogDefault": false,
+      "configSha256": "ccf2b29389fe5e4e42fbd59de761c45a28df7892a2543edc717f68effc050771",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000141/000141_10.zip",
+      "archiveSha256": "08450ab1b5a2b3185081fc661c193b1c02b41177b128149699337b6d9409aeab",
+      "images": {
+        "hero": {
+          "file": "000141_10_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "30b17b3b3087517abad7021eda44d3b6321cf918d45f213526921c02b3b89fcf",
+          "sourceEntry": "000141_10/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000141_10_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "068ab98666d45cc3b131bb40d7f9f270cb289795634e21065daa3341ed1cfdbe",
+          "sourceEntry": "000141_10/find_left_icon.png"
+        },
+        "right": {
+          "file": "000141_10_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "8cefe0a7a627532f59bde1f59b42cb2f18d7e7ec538ad5fb4464bd5a4028633f",
+          "sourceEntry": "000141_10/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000145",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5i",
+      "isCatalogDefault": true,
+      "configSha256": "9605a3be21e09c125fb3544529c918e878d9d3099256d48f47ce675f652fbbc4",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000145/000145_01.zip",
+      "archiveSha256": "a11402be20c83590008e093012481478118a34587e6fbee48772c3059513d9a4",
+      "images": {
+        "hero": {
+          "file": "000145_01_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "8c5e0e71157044c6113786c2030ea571bd73695d37e050529f266959c17901cb",
+          "sourceEntry": "000145_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000145_01_left.png",
+          "width": 320,
+          "height": 320,
+          "sha256": "725bad833d79c86753f46334a2063c3f327d25c5efe5441fac116fba3b1e84ba",
+          "sourceEntry": "000145_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000145_01_right.png",
+          "width": 320,
+          "height": 320,
+          "sha256": "1f471237711135af132016606220f255488d1777acbfc169b8773c12535661e2",
+          "sourceEntry": "000145_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000145",
+      "subModelId": "07",
+      "description": "浅紫色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5i",
+      "isCatalogDefault": false,
+      "configSha256": "9605a3be21e09c125fb3544529c918e878d9d3099256d48f47ce675f652fbbc4",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000145/000145_07.zip",
+      "archiveSha256": "1c9175765dece8bc80a81f54256e3f2be230ad06199d382785f3f24a73ee41a0",
+      "images": {
+        "hero": {
+          "file": "000145_07_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "fc1c5566d6bd067f14bc412435d9e29f13e908efeff9ab0ab52063fcc920b294",
+          "sourceEntry": "000145_07/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000145_07_left.png",
+          "width": 320,
+          "height": 320,
+          "sha256": "e790c4beef178407d817402db71863ba9f341e8af41d2f7c1f8aaa10f140a4cf",
+          "sourceEntry": "000145_07/find_left_icon.png"
+        },
+        "right": {
+          "file": "000145_07_right.png",
+          "width": 320,
+          "height": 320,
+          "sha256": "14b61059d6a754196558ecb9568c49b5f2576558764f110484c4c22dc7944b4f",
+          "sourceEntry": "000145_07/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000145",
+      "subModelId": "0C",
+      "description": "灰色产品资源",
+      "marketingName": "HUAWEI FreeBuds 5i",
+      "isCatalogDefault": false,
+      "configSha256": "9605a3be21e09c125fb3544529c918e878d9d3099256d48f47ce675f652fbbc4",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000145/000145_0C.zip",
+      "archiveSha256": "74ad687dc415d456570067ddd188082647fad702b9b5d75fbf84f8606fffcf4d",
+      "images": {
+        "hero": {
+          "file": "000145_0C_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "80c5aa41ae4b48fbf59e0d288ef6e0c0a3812a1e8a05f3a356745e56bebe5d3c",
+          "sourceEntry": "000145_0C/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000145_0C_left.png",
+          "width": 320,
+          "height": 320,
+          "sha256": "faf55326070608434fc381469217360754af8cfbba3699c08cd6dfd88d2c2c0a",
+          "sourceEntry": "000145_0C/find_left_icon.png"
+        },
+        "right": {
+          "file": "000145_0C_right.png",
+          "width": 320,
+          "height": 320,
+          "sha256": "0712c2b249369238e3ae1c3146f56fdb0e12f01708a5c568d47559e71a0dc282",
+          "sourceEntry": "000145_0C/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000149",
+      "subModelId": "00",
+      "description": "银色产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 3",
+      "isCatalogDefault": false,
+      "configSha256": "da9c4e5e6a07a0621fbb83b8d2df6cc1937a93adb4ec5fbc012db89fad44d055",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000149/000149_00.zip",
+      "archiveSha256": "58c5790b965e73cbb56c94f3e07e2a85aa2acffdd108555b67c118612a7a7a32",
+      "images": {
+        "hero": {
+          "file": "000149_00_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "177287f167932a9948b46a21bf0ce02c15866ab5b5e96eaaeaea9582411209f8",
+          "sourceEntry": "000149_00/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000149_00_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1124854fe42dbb37c698bfaaf81aac2d3f235ed3277c93851b5698f83bc62312",
+          "sourceEntry": "000149_00/find_left_icon.png"
+        },
+        "right": {
+          "file": "000149_00_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "b08c3a30a9abfe96b80e3f90bc0f19df630f7de8dcc341573267f22e42a849a8",
+          "sourceEntry": "000149_00/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000149",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 3",
+      "isCatalogDefault": true,
+      "configSha256": "da9c4e5e6a07a0621fbb83b8d2df6cc1937a93adb4ec5fbc012db89fad44d055",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000149/000149_01.zip",
+      "archiveSha256": "5c38a333f36bdd309f10f0140260b47c6385cfca654738ede25bce082d0e6441",
+      "images": {
+        "hero": {
+          "file": "000149_01_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "1660e5f60d2117b860ac9a49779999b374badd3d21cb22fe3b2ed1b899b5b8a7",
+          "sourceEntry": "000149_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000149_01_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "91c443de210e543cf445f5f035c8c8c9a00bf056c1be78776936339df968fee4",
+          "sourceEntry": "000149_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000149_01_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "74abbc7459bb209b64d41fef3577bd274e9a272b344c0c3872a791027711842d",
+          "sourceEntry": "000149_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000149",
+      "subModelId": "04",
+      "description": "绿色产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 3",
+      "isCatalogDefault": false,
+      "configSha256": "da9c4e5e6a07a0621fbb83b8d2df6cc1937a93adb4ec5fbc012db89fad44d055",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000149/000149_04.zip",
+      "archiveSha256": "45962c692dc135bbbf244ab71796f23776c3b8eae54f8a2b15a6cc6eb9ff98e4",
+      "images": {
+        "hero": {
+          "file": "000149_04_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "4a8271d885a08d221779d6c0981339e40906e57322e15c3a5c8425ba17403ee6",
+          "sourceEntry": "000149_04/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000149_04_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "47e21523bf57aefce14696006f52f6af98d2816d7353911dd4c62bd243371ea1",
+          "sourceEntry": "000149_04/find_left_icon.png"
+        },
+        "right": {
+          "file": "000149_04_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "ffa176b07753a85244b9ab8c694f47627e94c1ed1fdd23991bede2195bb4a724",
+          "sourceEntry": "000149_04/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000149",
+      "subModelId": "05",
+      "description": "蓝色产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 3",
+      "isCatalogDefault": false,
+      "configSha256": "da9c4e5e6a07a0621fbb83b8d2df6cc1937a93adb4ec5fbc012db89fad44d055",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000149/000149_05.zip",
+      "archiveSha256": "665d235de24c6136f639f8466c9d58c6a8b8297965a74098f4e9ff12d2f1c862",
+      "images": {
+        "hero": {
+          "file": "000149_05_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "9cdc80b4fb2757cafd878822a82561547fd6ce8ec6c02cacc94a38cf0ec7072b",
+          "sourceEntry": "000149_05/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000149_05_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "c7f7a1e2271c8112af15caedff94d5401a247895076423dffa2ab6e664738436",
+          "sourceEntry": "000149_05/find_left_icon.png"
+        },
+        "right": {
+          "file": "000149_05_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "bdc53fafef95b25bbdb757fe4d2939f54b07ada366df098ecc40497bbe68bfef",
+          "sourceEntry": "000149_05/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000149",
+      "subModelId": "14",
+      "description": "龙年雅川青产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 3",
+      "isCatalogDefault": false,
+      "configSha256": "da9c4e5e6a07a0621fbb83b8d2df6cc1937a93adb4ec5fbc012db89fad44d055",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000149/000149_14.zip",
+      "archiveSha256": "b9a521ca7b6e9da2dea2d39af521daa1eca88ca60e5b2caa89bda53a66be2c0d",
+      "images": {
+        "hero": {
+          "file": "000149_14_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "4a8271d885a08d221779d6c0981339e40906e57322e15c3a5c8425ba17403ee6",
+          "sourceEntry": "000149_14/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000149_14_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "47e21523bf57aefce14696006f52f6af98d2816d7353911dd4c62bd243371ea1",
+          "sourceEntry": "000149_14/find_left_icon.png"
+        },
+        "right": {
+          "file": "000149_14_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "ffa176b07753a85244b9ab8c694f47627e94c1ed1fdd23991bede2195bb4a724",
+          "sourceEntry": "000149_14/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00014F",
+      "subModelId": "00",
+      "description": "黑色产品资源",
+      "marketingName": "HUAWEI Eyewear 2",
+      "isCatalogDefault": true,
+      "configSha256": "d321cbcc38ca6beb557ddcaf5ebc574238d49dab0cebb62eebe9be5ac7013940",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00014F/00014F_00.zip",
+      "archiveSha256": "ef35142e22141fcb1cce019c3775a6b61eb8bad37349c559618a84c884048b99",
+      "images": {
+        "hero": {
+          "file": "00014F_00_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "e4ec569b030bd93c85b9f130b6c63ef295956caea45fb775d3f900fa972979e8",
+          "sourceEntry": "00014F_00/iv_device_logo.png"
+        }
+      }
+    },
+    {
+      "modelId": "000153",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 6i",
+      "isCatalogDefault": true,
+      "configSha256": "cc19a4e7f6383f886e2012f50bfbd116e062810f96dc7261a1c5d12a23a9f2cd",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000153/000153_01.zip",
+      "archiveSha256": "b38cb640f5521ab9e1c1bd3eca3bd7a1e99413d88be422311b1cbd63d797b8f8",
+      "images": {
+        "hero": {
+          "file": "000153_01_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "a9474d0966f665438aefb0a87bc16ec60c8df1bd148706ed4146528c5a0c0eda",
+          "sourceEntry": "000153_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000153_01_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "29cef2347e3905f96d1ed704442f81381e7412ed32ae0a2b0051a559c1a8c9d1",
+          "sourceEntry": "000153_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000153_01_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "dd36fd49b147ef6b5fa12d1a75c8dc8c36d383635c6f5c9848856d1c7d364fbc",
+          "sourceEntry": "000153_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000153",
+      "subModelId": "02",
+      "description": "黑色产品资源",
+      "marketingName": "HUAWEI FreeBuds 6i",
+      "isCatalogDefault": false,
+      "configSha256": "cc19a4e7f6383f886e2012f50bfbd116e062810f96dc7261a1c5d12a23a9f2cd",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000153/000153_02.zip",
+      "archiveSha256": "6e39309adbcb67c7dc216c5d1a27fd877bc770a68aa859affd2da8af90ce107a",
+      "images": {
+        "hero": {
+          "file": "000153_02_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "046c735fd3e1a9979857788fd59d952996e6bda93503cfbb368ecbeb7197d171",
+          "sourceEntry": "000153_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000153_02_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "9a2d499e45244af629dc2d6bb3388d168063b6435da0afa202a6a17cca04eacc",
+          "sourceEntry": "000153_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "000153_02_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "deb062d4d7f56bc8e8a01dc7ca12a9b682317a48ce3c905ef79b2a093390ff33",
+          "sourceEntry": "000153_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000153",
+      "subModelId": "07",
+      "description": "紫色产品资源",
+      "marketingName": "HUAWEI FreeBuds 6i",
+      "isCatalogDefault": false,
+      "configSha256": "cc19a4e7f6383f886e2012f50bfbd116e062810f96dc7261a1c5d12a23a9f2cd",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000153/000153_07.zip",
+      "archiveSha256": "096abe2770c6c01053088582dd3666c2c689344bad17a8820b1becbbf3eb34d7",
+      "images": {
+        "hero": {
+          "file": "000153_07_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "f419660596fe1500fcd70dea72ffb17486c6dfe9ce73ef540da5a92f136df445",
+          "sourceEntry": "000153_07/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000153_07_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "96fef3e87ee11fce42482020d44fce1a302574e8b2adfe5a2d61096b3be7f2f3",
+          "sourceEntry": "000153_07/find_left_icon.png"
+        },
+        "right": {
+          "file": "000153_07_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "07a91218e11507b8297554bd578588887086f9b8517e26eddc2a1f56b85f7f6b",
+          "sourceEntry": "000153_07/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000155",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 6",
+      "isCatalogDefault": true,
+      "configSha256": "7266a8eb8d58ac2c95a74907ba9b86be64beff3394dea43edd4243a6765e6e6d",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000155/000155_01.zip",
+      "archiveSha256": "b925c3d1737c2e6bb427d7b3a2a8ffedadc8aa9f75915b08f97df9700d40fea8",
+      "images": {
+        "hero": {
+          "file": "000155_01_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "9d151ddb313db41c2ae90ff5635a462fa4790cd317dde99263806459109c58e0",
+          "sourceEntry": "000155_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000155_01_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "0a4e4b1443a294c941e0061e218b8caec78ccc06e07c6ca61e263fe06488a3b7",
+          "sourceEntry": "000155_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000155_01_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "658e8b5668e8e7b2d8e0f1bce8a82201a74884c7ba7acae4e62464a32c71ec38",
+          "sourceEntry": "000155_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000155",
+      "subModelId": "02",
+      "description": "黑色产品资源",
+      "marketingName": "HUAWEI FreeBuds 6",
+      "isCatalogDefault": false,
+      "configSha256": "7266a8eb8d58ac2c95a74907ba9b86be64beff3394dea43edd4243a6765e6e6d",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000155/000155_02.zip",
+      "archiveSha256": "e5378a191d4a0be4ece56305d831b5d4d02515fb4b27fa9bbc87be9cacdba184",
+      "images": {
+        "hero": {
+          "file": "000155_02_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "cc3baddbdda6e63c860081d3c6e05867d8470d0c3e585bf16c40a0819b54c0fd",
+          "sourceEntry": "000155_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000155_02_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "0d81fff07900a43b07cc7eddade8dbbe9a7291823eb48e26a32850e8df47ad6f",
+          "sourceEntry": "000155_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "000155_02_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "8746d4b669640345dbfe5313bca1da5176e6baa3f7583fa0d99735eb46350453",
+          "sourceEntry": "000155_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000155",
+      "subModelId": "07",
+      "description": "紫色产品资源",
+      "marketingName": "HUAWEI FreeBuds 6",
+      "isCatalogDefault": false,
+      "configSha256": "7266a8eb8d58ac2c95a74907ba9b86be64beff3394dea43edd4243a6765e6e6d",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000155/000155_07.zip",
+      "archiveSha256": "e881aa5c4a7a694a159428dc2aad5ef5e281d5e42e73a16343ae25b45030822d",
+      "images": {
+        "hero": {
+          "file": "000155_07_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "6eaa2958e46995c06f7639513e7e27f848fb1ecfd2b6686fba4c64ce975d1ad6",
+          "sourceEntry": "000155_07/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000155_07_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "a6b691bf9c1ab5ef9cd5d4fd27706fa88624d3c8cf9e309edae7fe5f06327454",
+          "sourceEntry": "000155_07/find_left_icon.png"
+        },
+        "right": {
+          "file": "000155_07_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "e2fc51e71dca9a8dcdf09495aec0dc1b0080395f8f48c17b12666a908719383e",
+          "sourceEntry": "000155_07/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000155",
+      "subModelId": "17",
+      "description": "金色产品资源",
+      "marketingName": "HUAWEI FreeBuds 6",
+      "isCatalogDefault": false,
+      "configSha256": "7266a8eb8d58ac2c95a74907ba9b86be64beff3394dea43edd4243a6765e6e6d",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000155/000155_17.zip",
+      "archiveSha256": "01c34ed7ea2694b8abb75221e2e058561ff49d0fa57d4b96ce6b8c26fc9e4d09",
+      "images": {
+        "hero": {
+          "file": "000155_17_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "472231f17db8539c99f1b9434a95e5aa41cbcf92b8e311713563f0de650cd2b2",
+          "sourceEntry": "000155_17/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000155_17_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "50f13193ab0170e3a2274afc581c32c1a10c1a5050fb913eb6a3a0882e306600",
+          "sourceEntry": "000155_17/find_left_icon.png"
+        },
+        "right": {
+          "file": "000155_17_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "3d3322dfb698dc6c24751d4b703ee1f252fa73dc80f48e971ac0f9e07383f670",
+          "sourceEntry": "000155_17/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00015D",
+      "subModelId": "02",
+      "description": "黑色产品资源",
+      "marketingName": "HUAWEI FreeArc",
+      "isCatalogDefault": false,
+      "configSha256": "50526b0914cdc8f2c415d27765f0e85c1023d5c9649f402099fe8a3ccc9254f8",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00015D/00015D_02.zip",
+      "archiveSha256": "70bc73426062fa3967bca6e0ecfe04ad7f4c0ceb6bf0289ef4377fce1ae3a663",
+      "images": {
+        "hero": {
+          "file": "00015D_02_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "76d78667d72a43c1b70fd2fb40ae63958733b650af6ef3d85dc0363d48a75673",
+          "sourceEntry": "00015D_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00015D_02_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "35f294a147e980083817090b60ef6ffd4415aaf05461d32efb3a88ede540cda2",
+          "sourceEntry": "00015D_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "00015D_02_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1e07d337cbd53ee69cd395783131776e1f0fffb800ae85a1f65f8fbf84c36d3f",
+          "sourceEntry": "00015D_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00015D",
+      "subModelId": "04",
+      "description": "绿色产品资源",
+      "marketingName": "HUAWEI FreeArc",
+      "isCatalogDefault": false,
+      "configSha256": "50526b0914cdc8f2c415d27765f0e85c1023d5c9649f402099fe8a3ccc9254f8",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00015D/00015D_04.zip",
+      "archiveSha256": "de01dffd7180398afffe2bfa660204457b10e3d1db4376a8e4ee3c197a6514a1",
+      "images": {
+        "hero": {
+          "file": "00015D_04_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "7015a7a7c7be8117d04184962983d10bb2c9d2f754c3e7557cd76b3d46837a80",
+          "sourceEntry": "00015D_04/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00015D_04_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "381f2c2381b7d99145dbb873b0c1e5bab6debf37242fe3b053e92705cfc8b405",
+          "sourceEntry": "00015D_04/find_left_icon.png"
+        },
+        "right": {
+          "file": "00015D_04_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "716775ed6f51d03909486f94806f8164964b1156b750c9d8f9dfff5380a5e87d",
+          "sourceEntry": "00015D_04/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00015D",
+      "subModelId": "0C",
+      "description": "灰色产品资源",
+      "marketingName": "HUAWEI FreeArc",
+      "isCatalogDefault": true,
+      "configSha256": "50526b0914cdc8f2c415d27765f0e85c1023d5c9649f402099fe8a3ccc9254f8",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00015D/00015D_0C.zip",
+      "archiveSha256": "4783a7cfc95bfce42791d9efc76fb71898899ccec57d187a7c738b915404d5bd",
+      "images": {
+        "hero": {
+          "file": "00015D_0C_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "802e231476d40e9668949d31780e1a607b9e32e6a51be08726d43a4900a81bac",
+          "sourceEntry": "00015D_0C/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00015D_0C_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "8e28fd74a11c085f7ecb1aae224ce47b26062c3bb13f392e03f43ceab67ffef1",
+          "sourceEntry": "00015D_0C/find_left_icon.png"
+        },
+        "right": {
+          "file": "00015D_0C_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "ecc1be2d1b50bece7d717c139fecef1f205d4999e925465288f0849facf3e62b",
+          "sourceEntry": "00015D_0C/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00015D",
+      "subModelId": "14",
+      "description": "足球款产品资源",
+      "marketingName": "HUAWEI FreeArc",
+      "isCatalogDefault": false,
+      "configSha256": "50526b0914cdc8f2c415d27765f0e85c1023d5c9649f402099fe8a3ccc9254f8",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00015D/00015D_14.zip",
+      "archiveSha256": "7672671868c9bca0c3781a59306809cdcdfb9b9eac825837c52259c3fdbbf4bd",
+      "images": {
+        "hero": {
+          "file": "00015D_14_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "5baae1bd5a2051222298550a3a91e72c769c43aa685e4bede765e23c8d673ac8",
+          "sourceEntry": "00015D_14/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00015D_14_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "826f50f0c55198058938770a04c20124389c7e574431c6458bb77b6937627c93",
+          "sourceEntry": "00015D_14/find_left_icon.png"
+        },
+        "right": {
+          "file": "00015D_14_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "0c9cb50f86b4cd40b12347c23c42f449dc4b643a8293193f53e5a3a8de92b160",
+          "sourceEntry": "00015D_14/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000163",
+      "subModelId": "00",
+      "description": "银白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 7i",
+      "isCatalogDefault": false,
+      "configSha256": "0d9d56f10ddde1f6480166497a39ab1c9253bcfb49b5d2033edd7bb4e47a1ad3",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000163/000163_00.zip",
+      "archiveSha256": "349979147452ea984fae96bc36c90dc8e351bf42fe6be028e651e070a6eff461",
+      "images": {
+        "hero": {
+          "file": "000163_00_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "7f819b555ed3346939dba7336d26934b8e1dffcc7d392e37cd58f78d17960de9",
+          "sourceEntry": "000163_00/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000163_00_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "234406695780e4cc940c478ad875f60e77ffc8791a6815fe91aa48a8e1f2ee57",
+          "sourceEntry": "000163_00/find_left_icon.png"
+        },
+        "right": {
+          "file": "000163_00_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "45dcbbc307f35be643d67a05ed3ef1f08d61c643753f93f0dd59d28de76c1349",
+          "sourceEntry": "000163_00/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000163",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds 7i",
+      "isCatalogDefault": true,
+      "configSha256": "0d9d56f10ddde1f6480166497a39ab1c9253bcfb49b5d2033edd7bb4e47a1ad3",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000163/000163_01.zip",
+      "archiveSha256": "1c8059176923c53fbf95fb9d8b738a4c735ca02156f330386d61095ed9d49903",
+      "images": {
+        "hero": {
+          "file": "000163_01_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "7f819b555ed3346939dba7336d26934b8e1dffcc7d392e37cd58f78d17960de9",
+          "sourceEntry": "000163_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000163_01_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "234406695780e4cc940c478ad875f60e77ffc8791a6815fe91aa48a8e1f2ee57",
+          "sourceEntry": "000163_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000163_01_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "45dcbbc307f35be643d67a05ed3ef1f08d61c643753f93f0dd59d28de76c1349",
+          "sourceEntry": "000163_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000163",
+      "subModelId": "02",
+      "description": "黑色产品资源",
+      "marketingName": "HUAWEI FreeBuds 7i",
+      "isCatalogDefault": false,
+      "configSha256": "0d9d56f10ddde1f6480166497a39ab1c9253bcfb49b5d2033edd7bb4e47a1ad3",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000163/000163_02.zip",
+      "archiveSha256": "7f4ac21b90b5582adf4de08ef2d4755ab3d9efb7d8252207fc975384afe29021",
+      "images": {
+        "hero": {
+          "file": "000163_02_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "bfdc4c35b4d825120f95e309039bc36a7be89e4f477982a92a08590200f3ed38",
+          "sourceEntry": "000163_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000163_02_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "e438db4351fdcade06c2e26b37f7f08147484b209dfb4beb34383ed2f97e7514",
+          "sourceEntry": "000163_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "000163_02_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "d7775032f64ee2d6541ce4922a6888a19064d18b852ad3dce4388cc77d70a56e",
+          "sourceEntry": "000163_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000163",
+      "subModelId": "06",
+      "description": "暖桃色产品资源",
+      "marketingName": "HUAWEI FreeBuds 7i",
+      "isCatalogDefault": false,
+      "configSha256": "0d9d56f10ddde1f6480166497a39ab1c9253bcfb49b5d2033edd7bb4e47a1ad3",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000163/000163_06.zip",
+      "archiveSha256": "7806e58fb75df3bc56a868bd5de806294342227a157c6a94eeab942ee923ca40",
+      "images": {
+        "hero": {
+          "file": "000163_06_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "3430e6cead04b76bd72f76f289cad2abcc5c703ea1f58b7ec37ce036a8918327",
+          "sourceEntry": "000163_06/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000163_06_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "dc234168919db218ab2845d75f9200aaf4347d74d7d7b8d6ba5437ce2c83b13d",
+          "sourceEntry": "000163_06/find_left_icon.png"
+        },
+        "right": {
+          "file": "000163_06_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "187e932e301b2dd5bc25690ecae5aabc2869ac56c311d613c6f4c825655b001a",
+          "sourceEntry": "000163_06/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": true,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_01.zip",
+      "archiveSha256": "c215f34f74f1f286457b891e0b0674c064d91979be993e6b7b55a6d9a5dda578",
+      "images": {
+        "hero": {
+          "file": "000167_01_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "8a126632d0fa33abc90a9913feeb32204bafee46ee9cec8a13a8167f58bc0c0e",
+          "sourceEntry": "000167_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_01_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "73c95d551c4b29297bc230e7f7de394333ed8e94b82fc95ed323a448e6c0a6e9",
+          "sourceEntry": "000167_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_01_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "4e12e99c3b037e9e6bb8107c53855811efcfe0475098cd77d6c46d834e714c96",
+          "sourceEntry": "000167_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "02",
+      "description": "黑色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_02.zip",
+      "archiveSha256": "dbb3844a88e738e37bdb6e2102ad611ba20dfdd87fe13d435132808dc6a4edf5",
+      "images": {
+        "hero": {
+          "file": "000167_02_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "fc850491c65bdd882e20f686692da85fe80aaa12a0ce101b214e897ebfb07bf7",
+          "sourceEntry": "000167_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_02_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "f79de2a768080303c6e90b034639f1ad1ab98733f9cb227c76a5d7598c79aac8",
+          "sourceEntry": "000167_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_02_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "2c4dae85f8d30cec434ff06af1b3d54e04ae16e1c3ee96be0ed5359cfebeb3b0",
+          "sourceEntry": "000167_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "03",
+      "description": "红色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_03.zip",
+      "archiveSha256": "dda2e7e0e0fb3bc611a85db0ea1387f9389cb0690413f41f39bfef44ff5f7189",
+      "images": {
+        "hero": {
+          "file": "000167_03_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "c3c2adb7412252a1dc021580704557a2b0c06575f677f5d8dc3538cf285ff6a1",
+          "sourceEntry": "000167_03/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_03_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "3903259d8718d4b00d0158e807f5a2c0d30053ec0fd7bde1b25fb904f3123c4c",
+          "sourceEntry": "000167_03/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_03_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "759cd1bdb280ef5c2a371a841e54ea1890365d9224e542950f4772540c1a1c09",
+          "sourceEntry": "000167_03/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "05",
+      "description": "蓝色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_05.zip",
+      "archiveSha256": "17b17b95c847a0bb93140c67f820a2c188086634b8940d764a826a4105981bf7",
+      "images": {
+        "hero": {
+          "file": "000167_05_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "8afb05d141004fe920a9d7f7bea59cef347832478295f2c379e5357c86ed4fd9",
+          "sourceEntry": "000167_05/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_05_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "01d7a14736b9585dfb5e72d55c71771aa8fb545c4baa54725148d66a7bb28117",
+          "sourceEntry": "000167_05/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_05_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "a77845be5c646a4d8085e14a06960843c4d4ea28b6311e3db8d72f6e80aec390",
+          "sourceEntry": "000167_05/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "07",
+      "description": "紫色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_07.zip",
+      "archiveSha256": "2a2c6342173ad2222a4215ef39fe5e997045d91c51fcb0f49bf82b24a7d97ff4",
+      "images": {
+        "hero": {
+          "file": "000167_07_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "f08c0bb60d650415c9591af8ed9d5167a2a237260b1f1a3e0e2ea48713bf6f0a",
+          "sourceEntry": "000167_07/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_07_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "c0fbb3d0331cc3941ffbcb60fc8dde27fb882f68cd8ccba9171b8a937c8c20ad",
+          "sourceEntry": "000167_07/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_07_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "35496ed4c760ebf56fe9a5aefccaf91045c2c0910312edf0e4731273eeec4b86",
+          "sourceEntry": "000167_07/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "08",
+      "description": "黄色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_08.zip",
+      "archiveSha256": "2938796220c5af91cdb9bd030b39bb63e6e8cce8415a27f6cbfd495820c6ec90",
+      "images": {
+        "hero": {
+          "file": "000167_08_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "2d9141978d7c234d47a0ad44901e05e0d31c32786ce3cb08d3f24a5eb6acffe7",
+          "sourceEntry": "000167_08/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_08_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "694877a85031d64b7c8df2e73fd61816b581c45ac556886aa9c1f3ffbf52117d",
+          "sourceEntry": "000167_08/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_08_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "95b396889553535835c19a0b98f65c8a58054e3dc4b6c6fe4bf2a87def4343e5",
+          "sourceEntry": "000167_08/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "10",
+      "description": "星河蓝产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_10.zip",
+      "archiveSha256": "f341c4a19733c12ac46e2c691bce76b115470f3a6f1eac2d198d1b519783debd",
+      "images": {
+        "hero": {
+          "file": "000167_10_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "2550e805be1e449e98125d2d0893cb9ee8d809948d46bb0a667bdf0c0d504daf",
+          "sourceEntry": "000167_10/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_10_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "5b7fb02e0710c41a6ebf291714b67a732bb14d7affa80ef6905cefedee879bc4",
+          "sourceEntry": "000167_10/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_10_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1aa64745d1282e63de5b2550c880c61d99573781c808c62d8fe7cbcd9016898c",
+          "sourceEntry": "000167_10/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "17",
+      "description": "玫瑰金产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_17.zip",
+      "archiveSha256": "786110b422f1d90d8c36fa60ea39468cfc76fbcc231ba3444a34a1c4c5248e68",
+      "images": {
+        "hero": {
+          "file": "000167_17_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "6b355bb3340a7b8cc0b115192d1810becf097747713f025ecbd555234a17e587",
+          "sourceEntry": "000167_17/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_17_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "44e5d766bed14f7889b174d258da6d9e53fd46d6666e477b76271f1ab31f909b",
+          "sourceEntry": "000167_17/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_17_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "b91eba9e0d4e8412bd70eb70d0d1d83d5b60aebe56a4802c4cb56072f231280c",
+          "sourceEntry": "000167_17/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "1A",
+      "description": "红黄混色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_1A.zip",
+      "archiveSha256": "0894300732bfe1419bc63c047619058388913c3be6db3a8ecc3f14ed71d6ba95",
+      "images": {
+        "hero": {
+          "file": "000167_1A_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "8600d28efb132555462eff2bdfb8f8fe1185b1a97da9a000ce0abf4661d2ea50",
+          "sourceEntry": "000167_1A/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_1A_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "3903259d8718d4b00d0158e807f5a2c0d30053ec0fd7bde1b25fb904f3123c4c",
+          "sourceEntry": "000167_1A/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_1A_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "95b396889553535835c19a0b98f65c8a58054e3dc4b6c6fe4bf2a87def4343e5",
+          "sourceEntry": "000167_1A/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "1B",
+      "description": "红蓝混色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_1B.zip",
+      "archiveSha256": "ef97e98abd39792a0ebdc4d0736b177c854fe0c438a681b47296b5631360afec",
+      "images": {
+        "hero": {
+          "file": "000167_1B_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "8bda867ae5397d8b5906cd80ee7c2a8cd8ff2c42d75a7201cb698a1a8a392674",
+          "sourceEntry": "000167_1B/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_1B_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "3903259d8718d4b00d0158e807f5a2c0d30053ec0fd7bde1b25fb904f3123c4c",
+          "sourceEntry": "000167_1B/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_1B_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1aa64745d1282e63de5b2550c880c61d99573781c808c62d8fe7cbcd9016898c",
+          "sourceEntry": "000167_1B/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "1C",
+      "description": "蓝黄混色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_1C.zip",
+      "archiveSha256": "503c52c9f461c95cd5054c2baeb50ef52b9d3d582fd4eca9aa5f91246f937084",
+      "images": {
+        "hero": {
+          "file": "000167_1C_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "448d621804fe24ca9e2a7cd7cc99faf5afefb65ad8754eac3a05ca3d0dce219c",
+          "sourceEntry": "000167_1C/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_1C_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "5b7fb02e0710c41a6ebf291714b67a732bb14d7affa80ef6905cefedee879bc4",
+          "sourceEntry": "000167_1C/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_1C_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "95b396889553535835c19a0b98f65c8a58054e3dc4b6c6fe4bf2a87def4343e5",
+          "sourceEntry": "000167_1C/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "1D",
+      "description": "黄红混色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_1D.zip",
+      "archiveSha256": "06034f2b17c79718fdea2e90ae1c4a3dbc1e1f8847cafcd89d9473aa123a444a",
+      "images": {
+        "hero": {
+          "file": "000167_1D_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "d9acf527f84ed8668d49ff3ec4da04443a651629db932c540016401c7996653d",
+          "sourceEntry": "000167_1D/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_1D_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "694877a85031d64b7c8df2e73fd61816b581c45ac556886aa9c1f3ffbf52117d",
+          "sourceEntry": "000167_1D/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_1D_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "759cd1bdb280ef5c2a371a841e54ea1890365d9224e542950f4772540c1a1c09",
+          "sourceEntry": "000167_1D/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "1E",
+      "description": "蓝红混色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_1E.zip",
+      "archiveSha256": "8628ab6847b8b0beb348bb414a05ec8acd396bd3f7248c0775f738e99165e832",
+      "images": {
+        "hero": {
+          "file": "000167_1E_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "6039be04a569ae7dfa81858a28bd92f82afc0da2e26e995dbb1ffde33525793b",
+          "sourceEntry": "000167_1E/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_1E_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "5b7fb02e0710c41a6ebf291714b67a732bb14d7affa80ef6905cefedee879bc4",
+          "sourceEntry": "000167_1E/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_1E_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "759cd1bdb280ef5c2a371a841e54ea1890365d9224e542950f4772540c1a1c09",
+          "sourceEntry": "000167_1E/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000167",
+      "subModelId": "1F",
+      "description": "黄蓝混色产品资源",
+      "marketingName": "HUAWEI FreeClip 2",
+      "isCatalogDefault": false,
+      "configSha256": "aefc5559ec27a70ca3f4014a40834a022852ac12b4dea7699eac2bbd45d63abf",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000167/000167_1F.zip",
+      "archiveSha256": "db9e435315a2841b7983583c8a5ae29e0ff58bdef7bd8c2e9ca118125460e3a0",
+      "images": {
+        "hero": {
+          "file": "000167_1F_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "fe186018e5495e799c0008703a002c24b336f114d9edb1f308f9dff1438ad2d2",
+          "sourceEntry": "000167_1F/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000167_1F_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "694877a85031d64b7c8df2e73fd61816b581c45ac556886aa9c1f3ffbf52117d",
+          "sourceEntry": "000167_1F/find_left_icon.png"
+        },
+        "right": {
+          "file": "000167_1F_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1aa64745d1282e63de5b2550c880c61d99573781c808c62d8fe7cbcd9016898c",
+          "sourceEntry": "000167_1F/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000169",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds SE 4 ANC",
+      "isCatalogDefault": true,
+      "configSha256": "3a413855fb6060306a124a23f96b47c7ba503c9471a0434bdd4a6845942cc12b",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000169/000169_01.zip",
+      "archiveSha256": "4a64380273276ee9d9fed49d71906a94b332e9cf2d460589143be2c93da2a1a4",
+      "images": {
+        "hero": {
+          "file": "000169_01_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "a5a0e85f7887c167fa93ac675cce1b8d3ac1813eded281782b619efacd6024b5",
+          "sourceEntry": "000169_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000169_01_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "e516e49d42fbec3b636022d6495964203aaac7726e0aacff0c67f7cecaf6d3c4",
+          "sourceEntry": "000169_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "000169_01_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "bc0c9159a186b8dcb044cd931f48460f5426033f69cfe7882a36219c4e2f29b7",
+          "sourceEntry": "000169_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000169",
+      "subModelId": "02",
+      "description": "黑色产品资源",
+      "marketingName": "HUAWEI FreeBuds SE 4 ANC",
+      "isCatalogDefault": false,
+      "configSha256": "3a413855fb6060306a124a23f96b47c7ba503c9471a0434bdd4a6845942cc12b",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000169/000169_02.zip",
+      "archiveSha256": "d55a5ec0356d0ac784e6ae36bc7ed998ab9af3d4c760df1128e9f78b5cad0d5d",
+      "images": {
+        "hero": {
+          "file": "000169_02_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "872e6ce00c07b97d8855aed2c656eab323f5ba00bfd37e375c1d18cd71e8af8d",
+          "sourceEntry": "000169_02/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000169_02_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "d556475c0a633136a00a5563279b635eb78982e8817f85fe5848eb838b763df2",
+          "sourceEntry": "000169_02/find_left_icon.png"
+        },
+        "right": {
+          "file": "000169_02_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "35d9a18a0b2375267fce82df851b75a7b1a9e888aa9e86d75d03fec64d298781",
+          "sourceEntry": "000169_02/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000169",
+      "subModelId": "05",
+      "description": "蓝色产品资源",
+      "marketingName": "HUAWEI FreeBuds SE 4 ANC",
+      "isCatalogDefault": false,
+      "configSha256": "3a413855fb6060306a124a23f96b47c7ba503c9471a0434bdd4a6845942cc12b",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000169/000169_05.zip",
+      "archiveSha256": "16a461b9a52230579519929eef84faf09360218ade357c92388fd67950b595e3",
+      "images": {
+        "hero": {
+          "file": "000169_05_hero.png",
+          "width": 756,
+          "height": 756,
+          "sha256": "09cca1f99308b0991808d6f1d816c0b345f2162eb33fabe0e0e1367bf4920d2a",
+          "sourceEntry": "000169_05/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000169_05_left.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "cdcc628578aad416b7e5285b4f766d4cc7de6058138fa598bf8b81978290c038",
+          "sourceEntry": "000169_05/find_left_icon.png"
+        },
+        "right": {
+          "file": "000169_05_right.png",
+          "width": 480,
+          "height": 480,
+          "sha256": "b9ef3502d60bf2e0e674c7e219944aa67f8bc50354906ee6e98dd91a9e2f756b",
+          "sourceEntry": "000169_05/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00016D",
+      "subModelId": "01",
+      "description": "白色产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 5",
+      "isCatalogDefault": true,
+      "configSha256": "1520d2e5de43c2bc43dca3f175d08275dfba7e5c41f670dce3c8dde743ae4a16",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00016D/00016D_01.zip",
+      "archiveSha256": "329f9d6c488b0bb0c5d833ac8f4bf5a95c2b42d25bf1b457e32e41df77c1fe8d",
+      "images": {
+        "hero": {
+          "file": "00016D_01_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "fe90d8714dcb9d4abb3fe6a9e5e8a5a40d4d09169b8659a3f74b26abfa2d7f12",
+          "sourceEntry": "00016D_01/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00016D_01_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "8465b3987dcfe536a2f2d9003278c694f8bc4d1a51b5e31f7db1abb52cdb888b",
+          "sourceEntry": "00016D_01/find_left_icon.png"
+        },
+        "right": {
+          "file": "00016D_01_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1f7705803581bae0d4c4cbbf3b794a0d3741822f527fe97c38f94a17bffb1d10",
+          "sourceEntry": "00016D_01/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00016D",
+      "subModelId": "07",
+      "description": "紫色产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 5",
+      "isCatalogDefault": false,
+      "configSha256": "1520d2e5de43c2bc43dca3f175d08275dfba7e5c41f670dce3c8dde743ae4a16",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00016D/00016D_07.zip",
+      "archiveSha256": "ab67eadb3d0d8d56b151e0711dd4c2df565bf9aba01c082b83fff56346bfd871",
+      "images": {
+        "hero": {
+          "file": "00016D_07_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "cbc648eb23dffc977a3ed5b7960e240bf5a2fe5d2e8d3c5022f671169f728996",
+          "sourceEntry": "00016D_07/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00016D_07_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "75e4ccc015bd8c4e1e3872f1405efa48942c6c029d237a594708329aab6fd68f",
+          "sourceEntry": "00016D_07/find_left_icon.png"
+        },
+        "right": {
+          "file": "00016D_07_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "3c91ef00535dfec3c8b3f4271eb9de6a11428b819791c6ec0a2b260e72e6c684",
+          "sourceEntry": "00016D_07/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00016D",
+      "subModelId": "0E",
+      "description": "锖色产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 5",
+      "isCatalogDefault": false,
+      "configSha256": "1520d2e5de43c2bc43dca3f175d08275dfba7e5c41f670dce3c8dde743ae4a16",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00016D/00016D_0E.zip",
+      "archiveSha256": "6990edfabec472f3326fe1c23df55a854c602320513f83f339af79cca59f5658",
+      "images": {
+        "hero": {
+          "file": "00016D_0E_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "49e0c1ad8e8bd590c7a48e85698a35340fde49dfa212f9f8c8f36ed5b4a62d80",
+          "sourceEntry": "00016D_0E/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00016D_0E_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "6659c16b7fac937fd5d2c2b3bf58265f8e3e6cfbd92956938f78ee0b00c64f6d",
+          "sourceEntry": "00016D_0E/find_left_icon.png"
+        },
+        "right": {
+          "file": "00016D_0E_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "de0d0a6289ebf95d79d7217893b7bead95cf8aabe6822767836ee8e0a8a27dec",
+          "sourceEntry": "00016D_0E/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00016D",
+      "subModelId": "14",
+      "description": "马年定制产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 5",
+      "isCatalogDefault": false,
+      "configSha256": "1520d2e5de43c2bc43dca3f175d08275dfba7e5c41f670dce3c8dde743ae4a16",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00016D/00016D_14.zip",
+      "archiveSha256": "745aacfeba5953a1a1aeee7b468a743e9ff64f2bbd89a93fd18f3de5b1eefa61",
+      "images": {
+        "hero": {
+          "file": "00016D_14_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "65b7815181a13022106a215def55829f06495ff9310938f96f49089bb5335ce7",
+          "sourceEntry": "00016D_14/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00016D_14_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "8465b3987dcfe536a2f2d9003278c694f8bc4d1a51b5e31f7db1abb52cdb888b",
+          "sourceEntry": "00016D_14/find_left_icon.png"
+        },
+        "right": {
+          "file": "00016D_14_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1f7705803581bae0d4c4cbbf3b794a0d3741822f527fe97c38f94a17bffb1d10",
+          "sourceEntry": "00016D_14/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "00016D",
+      "subModelId": "17",
+      "description": "粉金色产品资源",
+      "marketingName": "HUAWEI FreeBuds Pro 5",
+      "isCatalogDefault": false,
+      "configSha256": "1520d2e5de43c2bc43dca3f175d08275dfba7e5c41f670dce3c8dde743ae4a16",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/00016D/00016D_17.zip",
+      "archiveSha256": "370e1b184802d927c00d7f3551f23c687cd4fbe16f3e4b989ddb5d409f088d02",
+      "images": {
+        "hero": {
+          "file": "00016D_17_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "1161b946cedfa4655b796b930ac0b491d5d9f8861006ec79133534ee4287dd1d",
+          "sourceEntry": "00016D_17/iv_device_logo.png"
+        },
+        "left": {
+          "file": "00016D_17_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "fff965489d651313f590ec8f46f3b6c47dd7836100dc03079c45cfd80b248387",
+          "sourceEntry": "00016D_17/find_left_icon.png"
+        },
+        "right": {
+          "file": "00016D_17_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "96b35249caaff260b233f834b3e91e558f8b94e1ada80dcbaf0e3569b729cd12",
+          "sourceEntry": "00016D_17/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000173",
+      "subModelId": "00",
+      "description": "银色产品资源",
+      "marketingName": "HUAWEI FreeClip 2 典藏版",
+      "isCatalogDefault": true,
+      "configSha256": "106e89afb16b6bed25aa2e4c6fdc6ec33757d91cbb34557bf5b3755e8e0f2639",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000173/000173_00.zip",
+      "archiveSha256": "55383249e137ea27f0c4e5e05786bd3cae885276e931bbe4ca52d53d95faab1c",
+      "images": {
+        "hero": {
+          "file": "000173_00_hero.png",
+          "width": 504,
+          "height": 504,
+          "sha256": "1933a72f649c0f7b588284910b7161f76fba28c9051d87010d6648111b05f98f",
+          "sourceEntry": "000173_00/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000173_00_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "ea90dd0552e7d7c0b43db618b5ee114944bc43eb9278abe5d4d7d699f9d2dd95",
+          "sourceEntry": "000173_00/find_left_icon.png"
+        },
+        "right": {
+          "file": "000173_00_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "6433ebf8252773eb77cf960c2a19f344947c58a2ad0f8650834db69b62af3fa8",
+          "sourceEntry": "000173_00/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000173",
+      "subModelId": "05",
+      "description": "蓝色产品资源",
+      "marketingName": "HUAWEI FreeClip 2 典藏版",
+      "isCatalogDefault": false,
+      "configSha256": "106e89afb16b6bed25aa2e4c6fdc6ec33757d91cbb34557bf5b3755e8e0f2639",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000173/000173_05.zip",
+      "archiveSha256": "4d189c6d5ac6db50ce85dcd6432f4d54239de1835ca7c675692e671b13588e6c",
+      "images": {
+        "hero": {
+          "file": "000173_05_hero.png",
+          "width": 504,
+          "height": 504,
+          "sha256": "7fd86d69ee616465c61a419c71806821f810e526f58876edfaaaa94644de96f3",
+          "sourceEntry": "000173_05/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000173_05_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "06880e0bdc2d5747bb867d8f24c28809aecdba667750acb8483249eef7658969",
+          "sourceEntry": "000173_05/find_left_icon.png"
+        },
+        "right": {
+          "file": "000173_05_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "33c427e7d94ffa977d5aca68f38778ee7a39d0fd9f93ef30f0366a2df25e334d",
+          "sourceEntry": "000173_05/find_right_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000174",
+      "subModelId": "00",
+      "description": "银色产品资源",
+      "marketingName": "HUAWEI FreeBuds 7",
+      "isCatalogDefault": true,
+      "configSha256": "ce9ae8b8d673cd82e7dd0769162cc7d90654d824f7df8afea9156da0f1d32222",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000174/000174_00.zip",
+      "archiveSha256": "7466b57a4bf1e8062d4358d2c42285a30e466b01c91a07c6755384efcb841020",
+      "images": {
+        "hero": {
+          "file": "000174_00_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "8f62cade75d2764960f244c9e7b87e37a4e238931ac95d4c5e07f78c8beeb252",
+          "sourceEntry": "000174_00/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000174_00_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "9ce2e3d10bf9ab257afdbd791c627772b7809dd5c083cefd8c682372ff6e25e7",
+          "sourceEntry": "000174_00/find_left_icon.png"
+        },
+        "right": {
+          "file": "000174_00_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "b2e09db6c12a624b4786cf364e1a836d091c3ec9b540fec508382fa017ecacda",
+          "sourceEntry": "000174_00/find_right_icon.png"
+        },
+        "case": {
+          "file": "000174_00_case.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "87a7b4d58eef2dae1597bb448cb0b7411e4c7744d88640ece24c903e182b445a",
+          "sourceEntry": "000174_00/find_box_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000174",
+      "subModelId": "07",
+      "description": "紫色产品资源",
+      "marketingName": "HUAWEI FreeBuds 7",
+      "isCatalogDefault": false,
+      "configSha256": "ce9ae8b8d673cd82e7dd0769162cc7d90654d824f7df8afea9156da0f1d32222",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000174/000174_07.zip",
+      "archiveSha256": "c3a457871d9a84bae094ed9417cf097bbd7c51e3aa7df897f3364a1effe05bab",
+      "images": {
+        "hero": {
+          "file": "000174_07_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "8fdb83645dfa6a71cb138ecbbba60c9a55be945e95a17aad03986c1eb9419f2a",
+          "sourceEntry": "000174_07/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000174_07_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "31aae38e273338d7ec539c045dadee458b5b8f06971fb3618b983c84ced219b1",
+          "sourceEntry": "000174_07/find_left_icon.png"
+        },
+        "right": {
+          "file": "000174_07_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "a2388db09e569b58be713d6a1271035614c8586c93672be762b034162750d9e0",
+          "sourceEntry": "000174_07/find_right_icon.png"
+        },
+        "case": {
+          "file": "000174_07_case.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "5938d0162c1f4119735d7795207ec10688446a975554afbb9a8880dcdb761f90",
+          "sourceEntry": "000174_07/find_box_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000174",
+      "subModelId": "09",
+      "description": "橙色产品资源",
+      "marketingName": "HUAWEI FreeBuds 7",
+      "isCatalogDefault": false,
+      "configSha256": "ce9ae8b8d673cd82e7dd0769162cc7d90654d824f7df8afea9156da0f1d32222",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000174/000174_09.zip",
+      "archiveSha256": "fd549ebe9d5ba3c180181bb186609adf13eb401c42ae534ab1214d94c993849c",
+      "images": {
+        "hero": {
+          "file": "000174_09_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "6b82d122a991cd91ac0e0806bf2c23c66603a6652e67bde2097a28247fb3f96f",
+          "sourceEntry": "000174_09/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000174_09_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "4c4c6b4bfa9bc3241afc707af1439c2ddf144443d0594ed668566f16e9b2048c",
+          "sourceEntry": "000174_09/find_left_icon.png"
+        },
+        "right": {
+          "file": "000174_09_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "9194326be016455e6f1e332fea5d52c0bc9941a4d93891c59eaca5febdb1d29f",
+          "sourceEntry": "000174_09/find_right_icon.png"
+        },
+        "case": {
+          "file": "000174_09_case.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "68b4824837bd99e5b54844d0027bec6040fb493f4c46cc7684f44f03b0f43607",
+          "sourceEntry": "000174_09/find_box_icon.png"
+        }
+      }
+    },
+    {
+      "modelId": "000174",
+      "subModelId": "0E",
+      "description": "深锖色产品资源",
+      "marketingName": "HUAWEI FreeBuds 7",
+      "isCatalogDefault": false,
+      "configSha256": "ce9ae8b8d673cd82e7dd0769162cc7d90654d824f7df8afea9156da0f1d32222",
+      "archiveUrl": "https://smarthome-drcn.dbankcdn.cn/device/guide/AAM001/000174/000174_0E.zip",
+      "archiveSha256": "d8bf4a103b179f4bdf80e37f5beba22a9a4719864d009399dd62215a16682841",
+      "images": {
+        "hero": {
+          "file": "000174_0E_hero.png",
+          "width": 1008,
+          "height": 1008,
+          "sha256": "63a0ac61baa684e6f5721e209ce1d54e0aa3c12d9ecae3938662e58df35788a5",
+          "sourceEntry": "000174_0E/iv_device_logo.png"
+        },
+        "left": {
+          "file": "000174_0E_left.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "f5f05c024495e675369eb62746cccea7c6fa1f7e13a0b16e502d1b4d3549cd58",
+          "sourceEntry": "000174_0E/find_left_icon.png"
+        },
+        "right": {
+          "file": "000174_0E_right.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "1c2d1ccd3da36708ac17439d23b56925954871f35168de2903a0ce5427f1041d",
+          "sourceEntry": "000174_0E/find_right_icon.png"
+        },
+        "case": {
+          "file": "000174_0E_case.png",
+          "width": 640,
+          "height": 640,
+          "sha256": "2a931e55dfaf7daa2a6092ec5514cebe1c200d223510929845a918ba5832fdbd",
+          "sourceEntry": "000174_0E/find_box_icon.png"
+        }
+      }
+    }
+  ]
+}
